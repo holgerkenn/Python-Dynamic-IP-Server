@@ -1,11 +1,15 @@
 # Python Dynamic IP Server
 This is a small cgi-bin script I use to get IP adresses from IOT devices that sit in a DHCP environment.
 
+## Warning
+
+This isn't for production use and for a high number of devices. This is not updating a DNS server, there are many services out there that do this already. It basically just sends you an e-mail every time the device sends a new IP address. 
+
 ## Installation
 
 * Enable cgi-bin in your favorite webserver
 * change the placeholders to sensible values
-* place the script in the cgi-bin directory
+* place the script in the cgi-bin directory under your favorite name
 
 ## Usage
 
