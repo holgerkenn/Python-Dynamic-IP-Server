@@ -1,4 +1,4 @@
-# PythonDynIP
+# Python Dynamic IP Server
 This is a small cgi-bin script I use to get IP adresses from IOT devices that sit in a DHCP environment.
 
 ## Installation
@@ -11,4 +11,4 @@ This is a small cgi-bin script I use to get IP adresses from IOT devices that si
 
 * The script mimics the behavior of existing Dynamic DNS servers, so if your iot device has a client for dynamic dns, you can point it to this script. This works with ip cameras, routers, OpenWRT devices etc.
 * if you don't have a pre-installed client, you can probably install one, there are many versions available for various OS environments and in various programming languages
-* you can also just call the URL from your own code, it is : `https://<your-server-name>/cgi-bin/dynip.py?ip=<ipaddr>&user=<username>&pass=<pass>&host=<domain>`
+* you can also just call the URL from your own code, it is : `https://<your-server-name>/cgi-bin/dynamicip.py?ip=<ipaddr>&user=<username>&pass=<pass>&host=<domain>`
